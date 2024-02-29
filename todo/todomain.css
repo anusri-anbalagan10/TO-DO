@@ -1,0 +1,118 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+input{
+    text-align: center;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    flex: 1 1 0%;   
+}
+#addbtn{
+    color: pink;
+    font-size: 1.25rem;
+
+    font-weight: 700;
+    background-image: linear-gradient(to right,var(--pink),var(--purple));
+    cursor: pointer;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 13px;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    flex: 1 1 0%;   
+
+}
+#addbtn:hover{
+    opacity: 0.7;
+
+}
+#delete{
+    margin-left: 15px;
+}
+li{
+    padding: 1 rem;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    
+}
+nav{
+    background-color: plum;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+ul,li{
+    display: flex;
+    padding: 15px;
+}
+ul{
+    
+    padding: 15PX;
+}
+li:hover{
+    color: rgb(133, 69, 156);
+    cursor: pointer;
+}
+#todoimg1{
+    height: 100px;
+    width: 150px;
+    margin-right:0;
+    }
+    #add{
+        padding: 15px;
+    }
+
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-width: 1px;
+       
+        
+    }
+
+    #new-task-submit:hover {
+        opacity: 0.8;
+    }
+    
+    #new-task-submit:active {
+        opacity: 0.6;
+    }
+    
+    main {
+        flex: 1 1 0%;
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    h1{
+        padding: 25px;
+    }
+
+    
+    .priority-select {
+        margin-left: 10px;
+    }
+    .priority-select,#delete,ol{
+        font-size: large;
+    }
+    .listcon{
+        font-size: medium;
+    }
+   
+    
+    
+</style>

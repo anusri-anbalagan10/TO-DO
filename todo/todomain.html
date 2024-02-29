@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="todomain.css">
+
+<div id="top">
+
+    <head><title>TO-DO</title>
+        <link rel="icon" href="C:\Users\Dell\Desktop\todo\todo.jpg">
+    </head>
+    
+    <nav>
+    
+        
+    <img id="todoimg1" src="C:\Users\Dell\Desktop\todo\todo.jpg">
+    <ul>
+        <li>HOME </li>|
+        <li>CONTACT </li>|
+        <li>LOGIN </li>
+        
+    </ul>
+    </nav>
+    </div>
+    <h1>TODAY</h1>
+<div class="box">
+   
+
+    <input id="add" placeholder="ENTER YOUR LIST" value="anu">
+    <button onclick="add()" id="addbtn"> ➕ </button>
+    <ol id="listcont">
+        
+        
+    </ol>
+    
+    </div>
+
+        
+    <script>
+        var ul=document.getElementById("listcont")
+        var input=document.getElementById("add")
+        function add(){
+            
+            var listitem=document.createElement("li")
+            listitem.innerHTML=input.value +"<button id='delete' onclick='delete1(event)'>🗑️</button>"
+            ul.append(listitem)
+        }
+        
+        function delete1(event){
+            alert("Congrats")
+        }
+        var delete2=document.getElementById("delete")
+        function delete1(event){
+            event.target.parentElement.remove()
+        }
+    </script>
+    
+  
